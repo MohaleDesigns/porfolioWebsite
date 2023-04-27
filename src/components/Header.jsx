@@ -12,7 +12,7 @@ const Header = () => {
           </a>
 
           {/* button */}
-          <button className="flex justify-center md:justify-start text-lg">
+          <button className="flex justify-center md:justify-start text-base font-semibold md:text-lg">
             <a
               href="/#contact"
               className="text-white text-bold py-2 px-10 bg-accent rounded-md hover:bg-title/80 hover:-translate-y-2 transition-all ease-in-out duration-700"

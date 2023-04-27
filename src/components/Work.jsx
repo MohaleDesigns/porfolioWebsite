@@ -45,10 +45,10 @@ const Work = () => {
         </motion.div>
 
         {/* row one | justGym */}
-        <div className="container flex flex-col items-center justify-center gap-8 space-y-0 py-6 px-5 mx-auto mt-10 md:flex-row md:space-x-0">
+        <div className="container flex flex-col items-center justify-center gap-8 space-y-0 py-6 px-5 mx-auto mt-10 md:flex-row-reverse md:space-x-0">
           {/* left content  */}
           <motion.div
-            variants={fadeIn("right", 0.3)}
+            variants={fadeIn("left", 0.3)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
@@ -59,7 +59,7 @@ const Work = () => {
 
           {/* right content  */}
           <motion.div
-            variants={fadeIn("left", 0.3)}
+            variants={fadeIn("right", 0.3)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
@@ -81,12 +81,11 @@ const Work = () => {
               its facilities, and its services.
             </p>
             {/* tools  */}
-            <div className="max-w-[420px] bg-black/20 h-[40px] backdrop-blur-2xl rounded-xl px-6 flex justify-between items-center text-lg text-white/50 gap-5 mb-4 mx-auto md:mx-0">
+            <div className="max-w-[310px]  bg-black/20 h-[40px] backdrop-blur-2xl rounded-xl px-6 flex justify-between items-center text-lg text-white/50 gap-3 mb-4 mx-auto md:mx-0">
               <span>HTML</span>
               <span className="mx-3">CSS</span>
               <span>JS</span>
               <span className="mx-3">BOOTSTRAP</span>
-              <span>FIGMA</span>
             </div>
             {/* buttons */}
             <div className="flex mx-auto text-center gap-5 md:text-start md:mx-0">
@@ -439,7 +438,7 @@ const Work = () => {
             {/* tools  */}
             <div className="max-w-[240px] bg-black/20 h-[40px] backdrop-blur-2xl rounded-xl px-6 flex justify-between items-center text-lg text-white/50 gap-3 mb-4 mx-auto md:mx-0">
               <span className="mr-3">REACT</span>
-              <span>TAILWIND CSS</span>
+              <span>TAILWIND</span>
             </div>
             {/* buttons */}
             <div className="flex mx-auto text-center gap-5 md:text-start md:mx-0">

@@ -27,21 +27,21 @@ const Tools = () => {
         className="container mx-auto mb-52 flex flex-col align-center justify-center gap-x-5 p-5 rounded-xl custom-shadow md:flex-row"
       >
         <div className="flex align-center justify-between mb-5 md:mb-0 md:gap-6">
-          <div className=" h-12 w-12 bg-html bg-cover bg-center md:h-16 md:w-16"></div>
-          <div className="h-12 w-12 bg-css bg-cover bg-center md:h-16 md:w-16"></div>
-          <div className="h-12 w-12 bg-javascript bg-cover bg-center md:h-16 md:w-16"></div>
-          <div className="h-12 w-12 bg-bootstrap bg-cover bg-center md:h-16 md:w-16"></div>
-          <div className="h-12 w-12 bg-react bg-cover bg-center md:h-16 md:w-16"></div>
-          <div className="h-12 w-12 bg-csharp bg-cover bg-center md:h-16 md:w-16"></div>
+          <div className="h-10 w-10 bg-html bg-cover bg-center md:h-16 md:w-16"></div>
+          <div className="h-10 w-10 bg-css bg-cover bg-center md:h-16 md:w-16"></div>
+          <div className="h-10 w-10 bg-javascript bg-cover bg-center md:h-16 md:w-16"></div>
+          <div className="h-10 w-10 bg-bootstrap bg-cover bg-center md:h-16 md:w-16"></div>
+          <div className="h-10 w-10 bg-react bg-cover bg-center md:h-16 md:w-16"></div>
+          <div className="h-10 w-10 bg-csharp bg-cover bg-center md:h-16 md:w-16"></div>
         </div>
 
         <div className="flex align-center justify-between md:gap-6 ">
-          <div className="h-12 w-12 bg-tailwind bg-cover bg-center md:h-16 md:w-16"></div>
-          <div className="h-12 w-12 bg-wordpress bg-cover bg-center md:h-16 md:w-16"></div>
-          <div className="h-12 w-12 bg-mysql bg-cover bg-center md:h-16 md:w-16"></div>
-          <div className="h-12 w-12 bg-git bg-cover bg-center md:h-16 md:w-16"></div>
-          <div className="h-12 w-12 bg-github bg-cover bg-center md:h-16 md:w-16"></div>
-          <div className="h-12 w-12 bg-figma bg-cover bg-center md:h-16 md:w-16"></div>
+          <div className="h-10 w-10 bg-tailwind bg-cover bg-center md:h-16 md:w-16"></div>
+          <div className="h-10 w-10 bg-wordpress bg-cover bg-center md:h-16 md:w-16"></div>
+          <div className="h-10 w-10 bg-mysql bg-cover bg-center md:h-16 md:w-16"></div>
+          <div className="h-10 w-10 bg-git bg-cover bg-center md:h-16 md:w-16"></div>
+          <div className="h-10 w-10 bg-github bg-cover bg-center md:h-16 md:w-16"></div>
+          <div className="h-10 w-10 bg-figma bg-cover bg-center md:h-16 md:w-16"></div>
         </div>
       </motion.div>
     </section>
