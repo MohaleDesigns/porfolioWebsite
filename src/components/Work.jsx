@@ -4,19 +4,24 @@ import { motion } from "framer-motion";
 import { fadeIn } from "./variants";
 
 // import { AiFillCloseSquare } from "react-icons/ai";S
-
 import { DefaultPlayer as Video } from "react-html5video";
 import "react-html5video/dist/styles.css";
 import popupVideo from "../assets/theMovieLand.webm";
 
-import dynamicDNARevamp from "../assets/work/dynamic-revamp.png";
+// HTML CSS JS 
+import wipa from "../assets/work/wipa.png";
 import expenseTracker from "../assets/work/expese-tracker.png";
-import justGym from "../assets/work/justGym.png";
-import movieLand from "../assets/work/movieland.png";
+import justGym from "../assets/work/justgym.png";
+import dynamicDNARevamp from "../assets/work/dynamic-revamp.png";
+
+// Wordpress 
 import pacesetter from "../assets/work/pacesetter.png";
 import sanedi from "../assets/work/sanedi.png";
-import wipa from "../assets/work/wipa.png";
+
+// React 
 import mohaleBank from "../assets/work/mohaleBank.png";
+import movieLand from "../assets/work/movieland.png";
+
 
 const Work = () => {
   const [popup, setPopup] = useState(false);

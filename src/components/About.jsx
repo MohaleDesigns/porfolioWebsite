@@ -17,7 +17,7 @@ const About = () => {
           viewport={{ once: false, amount: 0.3 }}
           className="flex flex-col space-y-9 md:w-1/2"
         >
-          <img src={aboutImage} />
+          <img src={aboutImage} alt="about" />
         </motion.div>
 
         {/* right content  */}

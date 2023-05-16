@@ -51,6 +51,7 @@ const Hero = () => {
             <a
               href="https://www.facebook.com/kabelo.mohale.54/"
               target="_blank"
+              rel="noopener noreferrer"
               className="cursor-pointer hover:text-title/80 hover:-translate-y-2 transition-all ease-in-out duration-700 text-3xl"
             >
               <GrFacebook />
@@ -59,6 +60,7 @@ const Hero = () => {
             <a
               href="https://www.linkedin.com/in/tokoloho-kabelo-mohale-910058209/"
               target="_blank"
+              rel="noopener noreferrer"
               className="mx-2 cursor-pointer hover:text-title/80 hover:-translate-y-2 transition-all ease-in-out duration-700 text-3xl"
             >
               <BsLinkedin />
@@ -67,6 +69,7 @@ const Hero = () => {
             <a
               href="https://www.instagram.com/mohaledesigns/"
               target="_blank"
+              rel="noopener noreferrer"
               className="cursor-pointer hover:text-title/80 hover:-translate-y-2 transition-all ease-in-out duration-700 text-4xl"
             >
               <FaInstagramSquare />
@@ -75,6 +78,7 @@ const Hero = () => {
             <a
               href="https://github.com/MohaleDesigns"
               target="_blank"
+              rel="noopener noreferrer"
               className="cursor-pointer hover:text-title/80 hover:-translate-y-2 transition-all ease-in-out duration-700 text-4xl"
             >
               <FaGithubSquare />
@@ -90,7 +94,7 @@ const Hero = () => {
           viewport={{ once: false, amount: 0.3 }}
           className="flex flex-col space-y-9 md:w-1/2"
         >
-          <img src={heroImage} className="hidden md:block" />
+          <img src={heroImage} alt="hero" className="hidden md:block" />
         </motion.div>
       </div>
     </section>
